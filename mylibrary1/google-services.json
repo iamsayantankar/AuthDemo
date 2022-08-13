@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "702345652864",
+    "project_id": "fir-auth-lib-e813d",
+    "storage_bucket": "fir-auth-lib-e813d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702345652864:android:d36d9161c4814c29115465",
+        "android_client_info": {
+          "package_name": "com.thebengalstudio.mylibrary1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702345652864-0i7qju4rh334o86f043gcdf9st9h9rcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxcQgxaZw3C4wLnVg1qZmVY4Pld1CvjYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702345652864-0i7qju4rh334o86f043gcdf9st9h9rcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "702345652864",
+    "project_id": "fir-auth-lib-e813d",
+    "storage_bucket": "fir-auth-lib-e813d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702345652864:android:0eb71fa7f5f753f5115465",
+        "android_client_info": {
+          "package_name": "com.example.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702345652864-qamr8adq4rfjdksetjct7eq2e418ldjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.auth",
+            "certificate_hash": "86ea5648763bfcae0914a06861205f911c321e76"
+          }
+        },
+        {
+          "client_id": "702345652864-0i7qju4rh334o86f043gcdf9st9h9rcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxcQgxaZw3C4wLnVg1qZmVY4Pld1CvjYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702345652864-0i7qju4rh334o86f043gcdf9st9h9rcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702345652864:android:a0163cf6d2cb6030115465",
+        "android_client_info": {
+          "package_name": "com.thebengalstudio.authdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702345652864-7lsfc6kovulbhv1v7fu9nlepuciif1jb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thebengalstudio.authdemo",
+            "certificate_hash": "86ea5648763bfcae0914a06861205f911c321e76"
+          }
+        },
+        {
+          "client_id": "702345652864-0i7qju4rh334o86f043gcdf9st9h9rcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxcQgxaZw3C4wLnVg1qZmVY4Pld1CvjYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702345652864-0i7qju4rh334o86f043gcdf9st9h9rcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702345652864:android:d36d9161c4814c29115465",
+        "android_client_info": {
+          "package_name": "com.thebengalstudio.mylibrary1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702345652864-jc1hi9hqiocianutg35i1gtc5o29q15d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thebengalstudio.mylibrary1",
+            "certificate_hash": "86ea5648763bfcae0914a06861205f911c321e76"
+          }
+        },
+        {
+          "client_id": "702345652864-0i7qju4rh334o86f043gcdf9st9h9rcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxcQgxaZw3C4wLnVg1qZmVY4Pld1CvjYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702345652864-0i7qju4rh334o86f043gcdf9st9h9rcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

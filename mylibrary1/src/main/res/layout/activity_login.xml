@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".SignUpProcess.LogIn">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#9fff"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="visible"
+                android:id="@+id/logInPanel"
+                android:padding="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/logo"
+                    android:gravity="center"
+                    android:layout_marginVertical="50dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="@color/bg_btn_1"/>
+
+
+                <EditText
+                    android:id="@+id/lUserName"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="Username"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#000" />
+
+                <EditText
+                    android:id="@+id/lPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="#000" />
+
+
+                <Button
+                    android:id="@+id/lLogIn"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custombutton2"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:onClick="lLogIn"
+                    android:text="Log In"
+                    android:textAllCaps="false"
+                    android:textColor="@color/bg_txt_1"
+                    android:textSize="75px" />
+
+
+                <EditText
+                    android:id="@+id/lOTP"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="OTP"
+                    android:inputType="number"
+                    android:textColorHint="#000" />
+
+                <Button
+                    android:id="@+id/lVerifyOTP"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Verify OTP"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="lVerifyOTP"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+
+
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#3fff"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/lResendOTP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:minHeight="48dp"
+                    android:onClick="lResendOTP"
+                    android:text="Resend OTP"
+                    android:textColor="@color/bg_btn_2"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lForgetPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:minHeight="48dp"
+                    android:onClick="lForgetPassword"
+                    android:text="Forget Password"
+                    android:textColor="@color/bg_btn_2"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#3fff"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/lSignUp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up Now"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="lSignUp"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="gone"
+                android:id="@+id/forgetPasswordPanel"
+                android:padding="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/logo"
+                    android:gravity="center"
+                    android:layout_marginVertical="50dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="@color/bg_btn_1"/>
+
+
+                <EditText
+                    android:id="@+id/fUserName"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="Username"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#000" />
+
+
+                <Button
+                    android:id="@+id/fSendOTP"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Send OTP"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="fSendOTP"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+
+                <EditText
+                    android:id="@+id/fOTP"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="OTP"
+                    android:inputType="number"
+                    android:textColorHint="#000" />
+
+                <Button
+                    android:id="@+id/fVerifyOTP"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Verify OTP"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="fVerifyOTP"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#3fff"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/fResendOTP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:minHeight="48dp"
+                    android:onClick="fResendOTP"
+                    android:text="Resend OTP"
+                    android:textColor="@color/bg_btn_2"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fChangeUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:minHeight="48dp"
+                    android:onClick="fChangeUsername"
+                    android:text="Change Username"
+                    android:textColor="@color/bg_btn_2"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/fPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="#000"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/fConfirmPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="#000" />
+
+                <Button
+                    android:id="@+id/fSetPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Set New Password"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="fSetPassword"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#3fff"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/fLogIn"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Log In Now"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="fLogIn"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#3fff"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/fSignUp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up Now"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="fSignUp"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="visible"
+                android:id="@+id/signUpPanel"
+                android:padding="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginVertical="50dp"
+                    android:gravity="center"
+                    android:src="@drawable/logo"
+                    app:civ_border_color="@color/bg_btn_1"
+                    app:civ_border_width="3dp"
+                    tools:ignore="ImageContrastCheck" />
+
+
+                <EditText
+                    android:id="@+id/sEmail"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:autofillHints=""
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#000" />
+
+                <EditText
+                    android:id="@+id/sPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:autofillHints=""
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="#000" />
+
+                <EditText
+                    android:id="@+id/sConfirmPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="#000" />
+
+                <EditText
+                    android:id="@+id/sPhoneNumber"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:textColorHint="#000" />
+
+
+                <Button
+                    android:id="@+id/sSignUp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="sSignUp"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+
+                <EditText
+                    android:id="@+id/sOTP"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="OTP"
+                    android:inputType="number"
+                    android:textColorHint="#000" />
+
+                <Button
+                    android:id="@+id/sVerifyOTP"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Verify OTP"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="sVerifyOTP"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+
+                <EditText
+                    android:id="@+id/sNewEmail"
+                    android:layout_width="250dp"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custombutton"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:gravity="center"
+                    android:hint="New Email"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#000"
+                    android:autofillHints="" />
+
+                <Button
+                    android:id="@+id/sUpdateNewEmail"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Update New Email"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="sUpdateNewEmail"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#3fff"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/sResendOTP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:minHeight="48dp"
+                    android:onClick="sResendOTP"
+                    android:text="Resend OTP"
+                    android:textColor="@color/bg_btn_2"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sChangeEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:minHeight="48dp"
+                    android:onClick="sChangeEmail"
+                    android:text="Change Email"
+                    android:textColor="@color/bg_btn_2"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#3fff"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/sLogIn"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Log In Now"
+                    android:textSize="75px"
+                    android:fontFamily="@font/ibarra_real_nova_bold"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:onClick="sLogIn"
+                    android:background="@drawable/custombutton2"
+                    android:textColor="@color/bg_txt_1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

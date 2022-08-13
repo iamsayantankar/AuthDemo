@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_passcode">app_passcode</string>
+    <string name="tbs_uid">tbs_uid</string>
+    <string name="app_uid">app_uid</string>
+    <string name="auth_uid">auth_uid</string>
+    <string name="app_packge_name">app_packge_name</string>
+    <string name="app_status">app_status</string>
+    <string name="auth_password">app_passcode</string>
+    <string name="verify_password">app_status</string>
+</resources>

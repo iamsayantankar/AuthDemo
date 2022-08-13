@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/app/src/main/res/layout/activity_auth01.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/drawable/circle.xml" value="0.142" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/drawable/color_no.xml" value="0.156" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/drawable/custombutton.xml" value="0.142" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/drawable/custombutton2.xml" value="0.142" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/drawable/ic_baseline_check_24.xml" value="0.142" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.142" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/drawable/ic_baseline_info_24.xml" value="0.142" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/drawable/progress.xml" value="0.156" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/drawable/progress_bg.xml" value="0.156" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/font/acme.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/layout/activity_auth01.xml" value="0.25" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/layout/activity_forget_password.xml" value="0.25" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/layout/activity_login.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/layout/activity_main_activityaaaa.xml" value="0.25" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/layout/demo.xml" value="0.1" />
+        <entry key="..\:/Users/sayan/AndroidStudioProjects/AuthDemo/mylibrary1/src/main/res/layout/progress_loading_layout.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
