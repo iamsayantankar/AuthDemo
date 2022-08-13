@@ -1,11 +1,11 @@
 package com.thebengalstudio.mylibrary1.Service;
 
 public class API {
-    private static final String website_url = "https://user.thebengalstudio.com/api";
+    private static final String website_url = "https://......";
 
 
     //TODO: User Auth Api
-    private static final String auth_api = website_url+"/userauth/";
+    private static final String auth_api = website_url+"";
     public static final String signup_api = auth_api+"/signup";
     public static final String signup_email_otp_api = auth_api+"/signup_email_otp";
     public static final String signup_resend_email_otp_api = auth_api+"/signup_resend_email_otp";
