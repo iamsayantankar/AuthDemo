@@ -22,6 +22,6 @@
 	dependencies {
 	        implementation 'com.github.karsayantan:AuthDemo:Tag'
 	}
-
+```
 </p>
 </details>
