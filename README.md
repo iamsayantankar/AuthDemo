@@ -20,7 +20,7 @@
 
 ```java
 	dependencies {
-	        implementation 'com.github.karsayantan:AuthDemo:Tag'
+	        implementation 'com.github.karsayantan:AuthDemo:1.0.0'
 	}
 ```
 </p>
