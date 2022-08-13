@@ -1,8 +1,5 @@
 # AuthDemo
 
-
-```
-
 <details><summary>CLICK ME FOR FREE ACCESS</summary>
 <p>
 
